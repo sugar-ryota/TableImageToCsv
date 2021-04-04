@@ -1,0 +1,6 @@
+django
+numpy
+pandas
+matplotlib
+seaborn
+Pillow

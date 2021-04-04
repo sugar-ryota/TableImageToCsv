@@ -1,0 +1,14 @@
+version: "3"
+services:
+    web:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: "TableImageToCsv"
+        ports:
+            - "8000:8000"
+        volumes:
+            - ".:/TableImageToCsv/"
+        # 下二行は-itと同じ役割
+        tty: true
+        stdin_open: true
