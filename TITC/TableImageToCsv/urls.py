@@ -4,5 +4,5 @@ from . import views
 app_name = 'TableImageToCsv'
 
 urlpatterns = [
-  path('',views.fileUpload,name='index'),
+  path('', views.fileUpload, name='index'),
 ]
